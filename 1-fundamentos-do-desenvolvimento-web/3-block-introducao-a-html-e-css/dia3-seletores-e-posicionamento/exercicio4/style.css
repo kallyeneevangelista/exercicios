@@ -1,0 +1,13 @@
+div:hover {
+    border: 1px solid black;
+}
+
+/* Faça cada div ter uma cor própria */
+
+h3 {
+    color: aqua;
+}
+
+/* Faça a terceira div ser maior que as demais */
+
+/* Deixe as tags ímpares h3 com o texto em itálico */
