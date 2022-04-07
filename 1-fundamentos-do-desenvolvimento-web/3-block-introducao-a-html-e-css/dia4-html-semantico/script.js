@@ -32,7 +32,7 @@ if (nota >= 80) {
 } */
 
 
-const currentHour = 13;
+/* const currentHour = 13;
 let message;
 
 if (currentHour >= 22) {
@@ -47,4 +47,21 @@ if (currentHour >= 22) {
     message = "Hum, cheiro de café recém passado"
 }
 
-console.log(message)
+console.log(message) */
+
+
+let teste = "aprovada";
+
+switch (teste) {
+    case "aprovada":
+        console.log("Parabéns, você foi aprovado(a)");
+    break;
+
+    case "reprovada":
+        console.log("Que pena, não foi dessa vez. Tente novamente!");
+    break;
+
+    default:
+        console.log("Verifique sua situação junto da administração")
+    break;
+}
