@@ -5,17 +5,14 @@ tarefas.push("Descansar");
 console.log(tarefas);
 
 tarefas.pop();
-
 console.log(tarefas);
 
 tarefas.shift();
-
 console.log(tarefas);
-
  */
 
 
-//Exercício 1:
+/* //Exercício 1:
 let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
 let menuServices = menu[1];
 
@@ -34,3 +31,22 @@ let menu3 = ['Home', 'Serviços', 'Portfólio', 'Links'];
 menu3.push("Contato")
 
 console.log(menu3);
+ */
+
+//Laço for
+//Exercício 1:
+/* let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+
+for (let index = 0; index < groceryList.length; index += 1) {
+    console.log(groceryList[index]);
+}
+ */
+
+
+
+//For/of
+let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+
+for (name of names) {
+    console.log(name)
+}
