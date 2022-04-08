@@ -45,8 +45,12 @@ for (let index = 0; index < groceryList.length; index += 1) {
 
 
 //For/of
-let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+//Exercício 1:
+/* let names = ['João', 'Maria', 'Antônio', 'Margarida'];
 
 for (name of names) {
     console.log(name)
 }
+ */
+
+
