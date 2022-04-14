@@ -213,3 +213,22 @@ console.log(parcelaADeduzir);
 console.log(impostoFinal);
 console.log(descontoIr);
 console.log(resultadoFinal);
+
+
+
+
+
+/* ======================================================================================== */
+/* Refatorando código conforme instruções das atividades de objetios e funções do dia 4.4: */
+
+//1. 
+function operacoes(primeiroParametro, segundoParametro) {
+    console.log(`Soma: ${primeiroParametro + segundoParametro}`);
+    console.log(`Subtração: ${primeiroParametro - segundoParametro}`);
+    console.log(`Multiplicação: ${primeiroParametro * segundoParametro}`);
+    console.log(`Divisão: ${primeiroParametro / segundoParametro}`);
+    console.log(`Módulo: ${primeiroParametro % segundoParametro}`);
+}
+
+operacoes(3,5);
+
