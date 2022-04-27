@@ -26,3 +26,5 @@ const terceiroFilho = elementoOndeVoceEsta.nextElementSibling;
 const terceiroFilho2 = pai.lastElementChild.previousElementSibling;
 
 /* Este é o gabarito. Preciso estudar novamente esse assunto. */
+
+
