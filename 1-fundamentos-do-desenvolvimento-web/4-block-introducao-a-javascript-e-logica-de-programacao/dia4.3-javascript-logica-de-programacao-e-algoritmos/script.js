@@ -30,3 +30,32 @@ for (let index = 0; index <= palavra.length; index += 1) {
     novaPalavra = palavra
     console.log(novaPalavra)
 }
+
+
+/* [Bônus] Bubble sort */
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+/* Crescente */
+for (let index = 0; index < numbers.length; index += 1) {
+    for (let indexTwo = 0; indexTwo < index; indexTwo += 1) {
+        if (numbers[index] < numbers[indexTwo]) {
+            let finalPosition = numbers[index];
+            numbers[index] = numbers[indexTwo];
+            numbers[indexTwo] = finalPosition;
+        }
+    }
+}
+console.log(numbers);
+
+/* Decrescente */
+for (let index = 0; index < numbers.length; index += 1) {
+    for (let indexTwo = 0; indexTwo < index; indexTwo += 1) {
+        if (numbers[index] > numbers[indexTwo]) {
+            let finalPosition = numbers[index];
+            numbers[index] = numbers[indexTwo];
+            numbers[indexTwo] = finalPosition;
+        }
+    }
+}
+console.log(numbers);
+
+/* Atividade realizada em 28/04/2022 com ajuda do Bruno Feu. */
