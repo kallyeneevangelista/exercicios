@@ -4,49 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Formulario</title>
 </head>
 <body>
-    <header>
-        <h1>Qualificação para escritura</h1>
+    <header class="container">
+        <img class="img-fluid" src="./Cabeçalho_Timbrado.png" alt="">
+        <h1 class="text-center">DADOS PARA O PROCESSO</h1>
+        <br>
     </header>
-    <form action="">
+    <form action="" class="container">
         <p>Dados principais:</p>
-        <label for="">Nome</label>
-        <input type="text">
-        <label for="">RG</label>
-        <input type="text">
-        <label for="">CPF</label>
-        <input type="text">
-        <label for="">Data de nascimento</label>
-        <input type="date">
+        <label class="form-label" for="">Nome</label>
+        <input class="form-control" type="text">
+        <label class="form-label" for="">RG</label>
+        <input class="form-control" type="number">
+        <label class="form-label" for="">CPF</label>
+        <input class="form-control" type="number">
+        <br>
+        <label class="form-label" for="">Data de nascimento:</label>
+        <input class="form-control" type="date">
+        <br>
+
         <p>Endereço:</p>
-        <label for="">Rua</label>
-        <input type="text">
-        <label for="">nº</label>
-        <input type="number">
-        <label for="">Bairro</label>
-        <input type="text">
-        <label for="">CEP</label>
-        <input type="number">
-        <label for="">Cidade</label>
-        <input type="text">
-        <label for="">Estado</label>
-        <input type="text">
+        <label class="form-label" for="">Rua</label>
+        <input class="form-control" type="text">
+        <label class="form-label" for="">nº</label>
+        <input class="form-control" type="number">
+        <label class="form-label" for="">Bairro</label>
+        <input class="form-control" type="text">
+        <label class="form-label" for="">CEP</label>
+        <input class="form-control" type="number">
+        <label class="form-label" for="">Cidade</label>
+        <input class="form-control" type="text">
+        <label class="form-label" for="">Estado</label>
+        <input class="form-control" type="text">
+        <br>
         <p>Dados complementares:</p>
-        <label for="">Profissão</label>
-        <input type="text">
-        <label for="">Telefone</label>
-        <input type="tel">
-        <label for="">Whatsapp</label>
-        <input type="tel">
-        <label for="">E-mail</label>
-        <input type="email">
-        <button type="submit">Enviar</button>
-        <button type="reset">Cancelar</button>
-        
+        <label class="form-label" for="">Profissão</label>
+        <input class="form-control" type="text">
+        <label class="form-label" for="">Telefone</label>
+        <input class="form-control" type="number">
+        <label class="form-label" for="">Whatsapp</label>
+        <input class="form-control" type="number">
+        <label class="form-label" for="">E-mail</label>
+        <input class="form-control" type="email">
+        <label class="form-label" for="">Observações:</label>
+        <input class="form-control" type="text">        
+        <br>
+        <button class="btn btn-secondary" type="submit">Enviar</button>
+        <button class="btn btn-light" type="reset">Cancelar</button>
     </form>
+    <footer><img class="img-fluid" src="./Rodapé_Timbrado.png" alt=""></footer>
 </body>
 </html>
