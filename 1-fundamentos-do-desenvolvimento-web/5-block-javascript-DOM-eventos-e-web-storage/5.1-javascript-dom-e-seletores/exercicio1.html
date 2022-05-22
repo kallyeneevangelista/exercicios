@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      
+      const titulo = document.getElementById('page-title');
+      titulo.innerText = 'Harry Potter e o Enigma do Príncipe.'
+
+      const segundoParagrafo = document.getElementById('second-paragraph');
+      segundoParagrafo.innerText = 'Esse segundo parágrafo está sendo editado para qualquer texto apenas para cumprir requisito da atividade proposta.'
+
+      const subtitulo = document.getElementById('subtitle');
+      subtitulo.style.color = 'purple';
+
+      document.getElementsByTagName('p').classList.add('paragrafos');
+      /* https://www.digitalocean.com/community/tutorials/how-to-modify-attributes-classes-and-styles-in-the-dom-pt */
+
+      const primeiroParagrafo = document.querySelectorAll('.paragrafos')[0];
+      primeiroParagrafo.style.color = 'pink';
+      /* Esse trecho não funcionou com getElementsByClassName nem com querySelector e não sei o motivo */
+
+
+    </script>
+  </body>
+</html>
+
+<!-- Atividade refeita no dia 22/05/2022, às 00:02
+Estou revisando o conteúdo dos blocos 5, 6, 7 e 8
+O conteúdo do bloco 5 trata de DOM, Eventos e Web Storage
+Apesar de toda a dificuldade enfrentada, notei que estou de fato aprendendo o conteúdo. -->
